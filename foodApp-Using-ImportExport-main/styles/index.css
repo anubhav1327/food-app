@@ -1,0 +1,33 @@
+#main{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+#main input{
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#result{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-around;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+#result img{
+    width: 100px;
+}
+
+#result h2{
+    margin-left: -100px;
+    margin-top: 30px;
+}
